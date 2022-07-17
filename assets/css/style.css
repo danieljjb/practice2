@@ -60,8 +60,8 @@ h2 {
 
 .btn:hover {
     cursor: pointer;
-    background-color: #C38D9E;
     color: #000;
+}
 
 .end-form-container {
     width: 100%;
@@ -78,11 +78,12 @@ input {
     font-size: 2rem;
     text-align: center;
     border: none;
+    box-shadow: 0 0.4rem 1.4rem 0 #8F8EBF;
 }
 
 input::placeholder {
     text-align: center;
-    color: #000;
+    color: #2E4159;
 }
 
 ul {
