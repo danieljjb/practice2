@@ -25,6 +25,12 @@ h2 {
     margin-bottom: 2rem;
 }
 
+ul {
+    list-style: none;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
 .container {
     width: 100vw;
     height: 100vh;
@@ -86,10 +92,51 @@ input::placeholder {
     color: #2E4159;
 }
 
-ul {
-    list-style: none;
-    font-size: 2rem;
+.how-to-play {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 5rem;
+}
+
+#instructions {
+    font-size: 1.6rem;
     margin-bottom: 2rem;
+}
+
+#instructions li {
+    padding: .5rem;
+    text-align: left;
+}
+
+.end-btn {
+    font-size: 2rem;
+    padding: 2rem 0;
+    width: 30rem;
+    height: 4.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background-color: #E8A87C;
+    border: .1rem solid #000;
+    border-radius: .5rem;
+}
+
+.end-btn:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #E27D60;
+}
+
+#finalScore {
+    font-size: 3.2rem;
 }
 
 @media only screen and (max-width: 1020px) {
