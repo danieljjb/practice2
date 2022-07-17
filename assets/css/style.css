@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Fira+Sans+Condensed&display=swap');
 
-:root {
-    background-color: #f2f2f2;
-}
 
 * {
     box-sizing: border-box;
@@ -10,7 +7,11 @@
     padding: 0;
     font-family: 'Fira Sans Condensed', sans-serif;
     text-align: center;
-    color: #2E4159;
+    color: #000;
+}
+
+body {
+    background-color: #41B3A3;
 }
 
 h1 {
@@ -51,18 +52,16 @@ h2 {
     width: 30rem;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: #2E4159;
-    background: #f2f2f2;
+    color: #000;
+    background-color: #E8A87C;
     border: 0.1rem solid #2E4159;
     border-radius: 4px;
 }
 
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 #8F8EBF;
-    transition: transform 150ms;
-    transform: scale(1.03);
-}
+    background-color: #C38D9E;
+    color: #000;
 
 .end-form-container {
     width: 100%;
@@ -79,12 +78,11 @@ input {
     font-size: 2rem;
     text-align: center;
     border: none;
-    box-shadow: 0 0.4rem 1.4rem 0 #8F8EBF;
 }
 
 input::placeholder {
     text-align: center;
-    color: #2E4159;
+    color: #000;
 }
 
 ul {
