@@ -78,7 +78,6 @@ input {
     font-size: 2rem;
     text-align: center;
     border: none;
-    box-shadow: 0 0.4rem 1.4rem 0 #8F8EBF;
 }
 
 input::placeholder {
