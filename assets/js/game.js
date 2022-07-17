@@ -10,7 +10,7 @@ let questionCounter = 0;
 let availableQuestions = [];
 
 const CORRECT_BONUS = 1;
-const MAX_QUESTIONS = 10;
+const MAX_QUESTIONS = 20;
 
 let questions = [];
 fetch(
