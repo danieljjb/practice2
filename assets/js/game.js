@@ -14,7 +14,7 @@ const MAX_QUESTIONS = 10;
 
 let questions = [];
 fetch(
-        'https://opentdb.com/api.php?amount=10&category=20&type=multiple'
+        'https://opentdb.com/api.php?amount=20&category=9&type=multiple'
     )
     .then((res) => {
         return res.json();
