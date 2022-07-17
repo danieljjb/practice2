@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="General knowledge quiz with a leaderboard">
+    <meta name="keywords" content="General knowledge, quiz, leaderboard, competitive quiz">
+    <title>Smarty Pants Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/game.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="flex-column flex-center" id="game">
+            <h1>Smarty Pants Quiz</h1>
+
+            <h2 id="question">Question</h2>
+            <div>
+                <button class="answer" data-number="1">Option 1</button>
+            </div>
+            <div>
+                <button class="answer" data-number="2">Option 2</button>
+            </div>
+            <div>
+                <button class="answer" data-number="3">Option 3</button>
+            </div>
+            <div>
+                <button class="answer" data-number="4">Option 4</button>
+            </div>
+            <div id="information">
+                <div>
+                    <h2 class="information-prefix">Question</h2>
+                    <h2 class="information-text" id="questionCounter">0</h2>
+                </div>
+                <div>
+                    <h2 class="information-prefix">Score</h2>
+                    <h2 class="information-text" id="score">0</h2>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="assets/js/game.js"></script>
+</body>
+</html>

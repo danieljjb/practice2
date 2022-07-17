@@ -1,0 +1,50 @@
+#question {
+    width: 60rem;
+    text-align: center;
+}
+
+.answer {
+    font-size: 2rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background: #f2f2f2;
+    border: 0.1rem solid #2E4159;
+    border-radius: 4px;
+}
+
+.answer:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #8F8EBF;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+#information {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 60rem;
+}
+
+@media only screen and (max-width: 1020px) {
+    #question {
+        width: 100%;
+    }
+    
+    #information {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    #question {
+        width: 100%;
+    }
+    
+    #information {
+        width: 80%;
+    }
+}
