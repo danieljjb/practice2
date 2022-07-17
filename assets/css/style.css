@@ -61,6 +61,7 @@ h2 {
 .btn:hover {
     cursor: pointer;
     color: #000;
+    background-color: #E27D60;
 }
 
 .end-form-container {
