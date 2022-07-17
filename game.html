@@ -14,8 +14,17 @@
 <body>
     <div class="container">
         <div class="flex-column flex-center" id="game">
-            <h1>Smarty Pants Quiz</h1>
-
+            <h1>Smarty Pants</h1>
+            <div id="information">
+                <div>
+                    <h2 class="information-prefix">Question</h2>
+                    <h2 class="information-text" id="questionCounter">0</h2>
+                </div>
+                <div>
+                    <h2 class="information-prefix">Score</h2>
+                    <h2 class="information-text" id="score">0</h2>
+                </div>
+            </div>
             <h2 id="question">Question</h2>
             <div>
                 <button class="answer" data-number="1">Option 1</button>
@@ -29,18 +38,7 @@
             <div>
                 <button class="answer" data-number="4">Option 4</button>
             </div>
-            <div id="information">
-                <div>
-                    <h2 class="information-prefix">Question</h2>
-                    <h2 class="information-text" id="questionCounter">0</h2>
-                </div>
-                <div>
-                    <h2 class="information-prefix">Score</h2>
-                    <h2 class="information-text" id="score">0</h2>
-                </div>
-            </div>
-        </div>
-        
+        </div>  
     </div>
 
     <script src="assets/js/game.js"></script>
