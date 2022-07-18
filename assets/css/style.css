@@ -133,6 +133,10 @@ input::placeholder {
     background-color: #E27D60;
 }
 
+#end-text {
+    font-size: 1.6rem;
+}
+
 #finalScore {
     font-size: 3.2rem;
 }
